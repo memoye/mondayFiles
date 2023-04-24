@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Styling Forms</title>
+</head>
+
+<body>
+    <div>
+        <div class="formSearch">
+
+            <label for="search">Search</label>
+            <input type="search" name="search" placeholder="enter your text" class="search">
+            <input type="submit" name="search" value="Go!" class="sbtn">
+
+        </div>
+        <h1>Registration</h1>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="John Doe" class="name txt"><br>
+
+            <div class="container">
+                <label for="gender">Gender</label>
+
+                <div class="container--input">
+                    <input type="radio" name="gender" class="rbtn"> Male <br>
+                    <input type="radio" name="gender" class="rbtn"> Female
+                </div>
+            </div>
+
+            <label for="clr">Fav color</label>
+            <input type="color" name="clr"><br>
+
+            <label for="birthday">Birthday</label>
+            <input type="date" name="birthday" class="date just-date"><br>
+
+            <label for="nin">NIN</label>
+            <input type="number" name="nin" maxlength="11" placeholder="12345678901" class="nin txt"><br>
+
+            <div class="container">
+                <label for="cbx">Interests</label>
+                <div class="container--input">
+                    <input type="checkbox" name="cbx" class="cbx" value="music"> Music <br>
+                    <input type="checkbox" name="cbx" class="cbx" value="travel"> Travel <br>
+                    <input type="checkbox" name="cbx" class="cbx" value="sports"> Sports <br>
+                    <input type="checkbox" name="cbx" class="cbx" value="movies"> Movies
+                </div>
+            </div>
+
+            <label for="res">Resume</label>
+            <input type="file" name="res" accept="image/png, image/jpeg" class="res file"><br>
+
+            <label for="lang">Language</label>
+            <select name="lang" class="lang">
+                <option>select option</option>
+                <option value="javascript">JavaScript</option>
+                <option value="php">PHP</option>
+                <option value="java">Java</option>
+                <option value="golang">Golang</option>
+                <option value="python">Python</option>
+                <option value="c#">C#</option>
+                <option value="C++">C++</option>
+                <option value="erlang">Erlang</option>
+            </select><br>
+
+            <label for="rng">XP Level</label>
+            <input type="range" name="rng"><br>
+
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" class="phone txt"><br>
+
+            <label for="url">Url</label>
+            <input type="url" name="url" class="url txt"><br>
+
+
+            <div class="bottomBtns">
+                <input type="reset" name="rst" class="rst btn">
+                <input type="submit" class="sbtn btn">
+            </div>
+        </form>
+        <p>
+            <a href="login.html">Login</a>
+        </p>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- <div class="form--date">
+            <label for="datetime">Datetime Local</label>
+            <input type="datetime-local" class="date date-time"><br>
+            <label for="date">Date</label>
+            <input type="date" name="date" class="date just-date"><br>
+            <label for="month">Month</label>
+            <input type="month" class="date just-month"><br>
+            <label for="week">Week</label>
+            <input type="week" id="week" class="date just-week"><br>
+            <label for="time">Time</label>
+            <input type="time" name="time" id="time" class="date just-time"><br>
+    </div> -->
+</body>
+
+</html>
