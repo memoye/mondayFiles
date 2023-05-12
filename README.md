@@ -1,7 +1,7 @@
 # mondayFiles
 
 name your folder based on your topic and push to main. 
-So each prexentation has a different folder.
+So each presentation has a different folder.
 
 ## stylingForms
 
