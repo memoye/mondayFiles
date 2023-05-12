@@ -1,0 +1,49 @@
+/* Box Model: Content -> Padding -> Border -> Margin & Box sizing.
+In CSS, all elements are boxes - headings, images, inline elements, etc.
+* Box sizing: Content and border box
+- PADDING:
+    * Transparent
+    * Shortcut: Top, right, bottom, left.
+    * Application: Space in a content.
+- BORDER:
+    * Properties: Size, style, colour
+    * Shortcut- Top, right, bottom, left.
+    * Application: Buttons, inspect elements.
+- MARGIN:
+    * Transparent
+    * Shortcut: top, right, bottom, left.
+    * Application: Space between elements, boundary */
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    background-color: rgb(148, 148, 228);
+    /* padding-top: 60px;  */
+    /*
+    
+    padding-right: 60px; 
+    padding-bottom: 60px; 
+    padding-left: 60px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;*/
+}
+
+p{
+    width: 700px;
+    border-lef
+}
+
+span{
+    /* margin: 20px;
+    padding: 20px;
+    width: 80px;
+    height: 50px;
+    border: 1px solid red; */
+}
+
